@@ -1,0 +1,73 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.filtersgroup_searchContainer {
+  font-family: 'Roboto';
+  width: 100%;
+  background-color: #f1f5f9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px;
+  border-radius: 6px;
+}
+.filtersgroup_searchinput {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  margin-right: 10px;
+  padding-left: 10px;
+  outline: none;
+}
+.filtersgroup_category_heading {
+  font-family: 'Roboto';
+}
+.filtersgroup_category_ListContainer {
+  list-style-type: none;
+  padding: 0px;
+}
+.filtersgroup_category_para {
+  color: #64748b;
+}
+.ActiveFilterEl {
+  color: #0967d2;
+  font-weight: bold;
+}
+.filtersgroup_rating_ListContainer {
+  list-style-type: none;
+  padding: 0px;
+}
+.listItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.filtersgroup_rating_image {
+  width: 60%;
+}
+.filtersgroup_rating_para {
+  margin-left: 10px;
+}
+
+.BtnEl {
+  width: 130px;
+  height: 40px;
+  color: #0967d2;
+  border-color: #0967d2;
+  border-width: 3px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: transparent;
+  cursor: pointer;
+}
